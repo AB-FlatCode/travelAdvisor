@@ -31,7 +31,6 @@ export const getPlacesData = async (sw, ne) => {
         'x-rapidapi-key': '0401228499mshd83990c1618a245p121c73jsn25e699c5466b',
       },
     });
-    console.log(data);
     return data;
   } catch (error) {
     console.log(error);
